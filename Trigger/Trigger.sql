@@ -22,3 +22,8 @@ to_char(sysdate, 'DD-MON-YYYY')
 );
 END;
 /
+
+update item set price=20 where item_id=11008;
+
+SELECT *
+FROM product_price_tracker;
