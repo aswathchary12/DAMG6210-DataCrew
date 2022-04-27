@@ -31,5 +31,8 @@ BEGIN
   execute immediate 'drop table '||tname;
   select table_name into tname from user_tables where table_name='ZIP_CODE';
   execute immediate 'drop table '||tname;
+  EXCEPTION
+  when no_data_found then
+   dbms_output.put_line('The tables do not exist, create one');
 END;
 /
