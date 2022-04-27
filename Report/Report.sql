@@ -59,3 +59,27 @@ WHERE
     AND o.cust_id = c.cust_id
 group by cust_name, city, payment_mode, amount
 /
+
+
+--4.Payment Mode - City wise
+
+SELECT "CITY", "PAYMENT_MODE", "AMOUNT", "COUNT(1)" FROM(
+SELECT
+    city,
+    payment_mode,
+    amount,
+    COUNT(1)
+FROM
+    customer c,
+    address  a,
+    zip_code z,
+    payment  p,
+    orderr   o
+WHERE
+        c.address_id = a.address_id
+    AND a.area_code = z.area_code
+    AND p.order_id = o.order_id
+    AND o.cust_id = c.cust_id
+group by  city, payment_mode, amount
+)
+/
