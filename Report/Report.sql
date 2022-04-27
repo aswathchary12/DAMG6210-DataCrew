@@ -95,3 +95,15 @@ FROM
     group by item_name, seller_name, price
 
 /
+
+--6. Shipment Status
+SELECT
+    delivery_status,
+    shipper_name,
+    COUNT(*)
+FROM
+    shipment s inner join shipper si on s.shipper_id=si.shipper_id
+GROUP BY
+    delivery_status,shipper_name
+
+/
