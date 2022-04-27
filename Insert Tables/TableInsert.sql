@@ -87,6 +87,15 @@ INSERT INTO ITEM_CONDITION VALUES (2010, 'Used-Good', ' Water resistant material
 INSERT INTO ITEM_CONDITION VALUES (2011, 'Used-Like New', 'Durable holders used to store pens, pencils and other items');
 INSERT INTO ITEM_CONDITION VALUES (2012, 'Used-Like New', 'Long lasting teak wood with beautiful carvings');
 INSERT INTO ITEM_CONDITION VALUES (2013, 'Used-Good', 'Generous carrying capacity with laptop sleeve and headphone loop');
+INSERT INTO ITEM_CONDITION VALUES (2014, 'Used-Good', 'Pointed heels, branded and attractive color');
+INSERT INTO ITEM_CONDITION VALUES (2015, 'Used-Good', 'Leopard design case for iphone max series');
+INSERT INTO ITEM_CONDITION VALUES (2016, 'Used-Fair', 'Quick heating and easy cleaning');
+INSERT INTO ITEM_CONDITION VALUES (2017, 'Used-Like New', 'Down jacket that keeps you warm, attractive color and can be double sided');
+INSERT INTO ITEM_CONDITION VALUES (2018, 'Used-Good', 'Meshed back rest with arm rest');
+INSERT INTO ITEM_CONDITION VALUES (2019, 'Used-Like New', 'Versatile sweatshirt with long sleeves perfect for a chilly weather');
+INSERT INTO ITEM_CONDITION VALUES (2020, 'Used-Like New', 'Germ killing ability, antispetic and reasonable price');
+
+
 
 INSERT INTO CATEGORYY VALUES(3001, 'FURNITURE');
 INSERT INTO CATEGORYY VALUES(3002, 'CLOTH');
