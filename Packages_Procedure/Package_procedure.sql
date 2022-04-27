@@ -59,3 +59,21 @@ EXECUTE ITEM_PACKAGE.Based_On_Category('FURNITURE');
 EXECUTE ITEM_PACKAGE.Price_Based(50);
 
 ----------------------------------------------------------------------------------------
+
+--Displaying the number of items based up on the ID
+CREATE OR REPLACE PROCEDURE CART_ITEM_DETAILS(CRT_ID IN VARCHAR)
+    IS
+    val NUMBER(2);
+    BEGIN
+    SELECT NUMBER_OF_ITEMS INTO val FROM CART WHERE CART_ID = CRT_ID;
+        dbms_output.put_line('The no of items in the cartid ' || CRT_ID ||' is : ' || val);
+    EXCEPTION
+    WHEN no_data_found THEN
+    dbms_output.put_line('Sorry no such cart exist !!');
+    END;
+/
+
+EXECUTE CART_ITEM_DETAILS(7020);
+
+
+-------------------------------------------------------------------------------
