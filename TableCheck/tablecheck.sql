@@ -17,5 +17,13 @@ BEGIN
   execute immediate 'drop table '||tname;
   select table_name into tname from user_tables where table_name='CART';
   execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='SELLER';
+  execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='CUSTOMER';
+  execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='SHIPPER';
+  execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='CATEGORYY';
+  execute immediate 'drop table '||tname;
 END;
 /
