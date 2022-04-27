@@ -22,3 +22,18 @@ WHERE
 
 /
 
+--2.ITEMS SOLD BASED ON CONDITION IN EACH CATEGORY
+
+SELECT
+    ca.category_name,
+    ic.item_condition,
+    count(ITEM_ID)
+FROM
+     categoryy ca,
+    item      i,
+    item_condition ic  
+WHERE
+    ca.category_id = i.category_id
+    and ic.IC_ID =i.IC_ID
+    group by ca.category_name,ic.item_condition
+/
