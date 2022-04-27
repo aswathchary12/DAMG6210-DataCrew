@@ -37,3 +37,25 @@ WHERE
     and ic.IC_ID =i.IC_ID
     group by ca.category_name,ic.item_condition
 /
+
+--3.List of customers who got the product delivered along with their city, payment mode details
+
+SELECT
+    cust_name,
+    city,
+    payment_mode,
+    amount,
+    COUNT(1)
+FROM
+    customer c,
+    address  a,
+    zip_code z,
+    payment  p,
+    orderr   o
+WHERE
+        c.address_id = a.address_id
+    AND a.area_code = z.area_code
+    AND p.order_id = o.order_id
+    AND o.cust_id = c.cust_id
+group by cust_name, city, payment_mode, amount
+/
