@@ -73,3 +73,17 @@ INSERT INTO SELLER VALUES(6007, 'Leroy Adkins', 'Leroy_Adkins', 'Leroy11Adkins',
 INSERT INTO SELLER VALUES(6008, 'Heather Ruiz', 'Heather_Ruiz', 'Heather_Ruiz',  9612629933,'ruizzheather@gmail.com', 1018);
 INSERT INTO SELLER VALUES(6009, 'Candice Nash', 'Candice_Nash', 'Candice12Nash', 6523538206, 'nashcandice@gmail.com', 1017);
 INSERT INTO SELLER VALUES(6010, 'Louise Hubbard', 'Louise_Hubbard', 'LHubbard',  8686555962,'hubbard@yahoo.com', 1007);
+
+INSERT INTO ITEM_CONDITION VALUES (2001, 'Used-Like New' , 'Chair without arm rest');
+INSERT INTO ITEM_CONDITION VALUES (2002, 'Used-Good', 'Branded worn only once');
+INSERT INTO ITEM_CONDITION VALUES (2003, 'Used-Fair', 'Breathable running shoes for hot summer');
+INSERT INTO ITEM_CONDITION VALUES (2004, 'Used-Good', 'Stylish light weight compact and modern study table');
+INSERT INTO ITEM_CONDITION VALUES (2005, 'Used-Fair', 'Best crafting scissors for different patterns');
+INSERT INTO ITEM_CONDITION VALUES (2006, 'Used-Good', 'Best blend of camera quality and battery life, latest model at the right price');
+INSERT INTO ITEM_CONDITION VALUES (2007, 'Used-Fair', 'Fine fabric and modular design, L Shaped comfortable and accomodates 8');
+INSERT INTO ITEM_CONDITION VALUES (2008, 'Used-Good', 'A top quality floor lamp creating a cozy vibe ');
+INSERT INTO ITEM_CONDITION VALUES (2009, 'Used-Fair', 'Unique material and gorgeous design');
+INSERT INTO ITEM_CONDITION VALUES (2010, 'Used-Good', ' Water resistant material that keep your laptop dust free');
+INSERT INTO ITEM_CONDITION VALUES (2011, 'Used-Like New', 'Durable holders used to store pens, pencils and other items');
+INSERT INTO ITEM_CONDITION VALUES (2012, 'Used-Like New', 'Long lasting teak wood with beautiful carvings');
+INSERT INTO ITEM_CONDITION VALUES (2013, 'Used-Good', 'Generous carrying capacity with laptop sleeve and headphone loop');
