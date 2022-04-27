@@ -116,3 +116,15 @@ INSERT INTO ITEM VALUES (11017, 'Jacket', 45, 6009, 2017, 3002, 5017);
 INSERT INTO ITEM VALUES (11018, 'Chair', 52, 6008, 2018, 3001, 5018);
 INSERT INTO ITEM VALUES (11019, 'Sweatshirt', 48, 6007, 2019, 3002, 5019);
 INSERT INTO ITEM VALUES (11020, 'Soap', 16, 6006, 2020, 3006, 5020);
+
+INSERT INTO SHIPPER VALUES(4001, 4106322422, 'Nessa Nicola', 'Nicola22', 'Nicola123@33', 'nicola.ne123@gmail.com', 20854);
+INSERT INTO SHIPPER VALUES(4002, 2173572537, 'Percival Coy', 'Coyper', 'Per@val', 'coy.coper123@yahoo.com', 18901);
+INSERT INTO SHIPPER VALUES(4003, 7084895983, 'Astrid Tennyson', 'Tennysonas', 'Te11nnysonas', 'astrid54@gmail.com', 17402);
+INSERT INTO SHIPPER VALUES(4004, 2538406821, 'Irma Sherman', 'sherman.i', 'sherman_123#', 'i.sherman@hotmail.com', 17011);
+INSERT INTO SHIPPER VALUES(4005, 2623777828, 'Debra Wagner', 'wagner.d', 'wagner12!)', 'debrawag@gmail.com', 15401);
+INSERT INTO SHIPPER VALUES(4006, 4075442029, 'Lori Moran', 'moran.l', 'moran*47', 'lori@yahoo.com', 12401);
+INSERT INTO SHIPPER VALUES(4007, 6062513667, 'Brent Ramirez', 'ramirez.b', 'brent)831!', 'brentram123@outlook.com', 11791);
+INSERT INTO SHIPPER VALUES(4008, 5702873056, 'Tony Miller', 'miller.t', 'tony.m!234', 'tony.miller123@gmail.com', 11561);
+INSERT INTO SHIPPER VALUES(4009, 8174534450, 'Brian Stokes', 'stokes.b', 'brian!376', 'brian.s98@gmail.com', 7728);
+INSERT INTO SHIPPER VALUES(4010, 5304673107, 'Pat Mendoza', 'mendoza123', 'patmend134!%', 'pat.men123@gmail.com', 6010);
+INSERT INTO SHIPPER VALUES(4011, 9856748391, 'Guy Mcbride', 'mcgug_pat', 'guymcb!23', 'guymcb34%@gmail.com', 2852);
