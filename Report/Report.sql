@@ -83,3 +83,15 @@ WHERE
 group by  city, payment_mode, amount
 )
 /
+
+--5. Items sold by sellers 
+SELECT
+    item_name,
+    seller_name,
+    price,
+    count(1)
+FROM
+    item it, seller s where it.seller_id = s.seller_id
+    group by item_name, seller_name, price
+
+/
