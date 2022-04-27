@@ -77,3 +77,19 @@ EXECUTE CART_ITEM_DETAILS(7020);
 
 
 -------------------------------------------------------------------------------
+
+--For checking Revenue per day
+create or replace PROCEDURE Total_Rev(PAY_DATE DATE)
+AS
+    tmp  number;
+    BEGIN
+        SELECT sum (amount) as SalesAmount
+        INTO tmp
+        FROM Payment
+        WHERE PAYMENT_DATE = PAY_DATE
+        GROUP BY PAYMENT_DATE;
+        DBMS_output.put_line('For the selected date Total Revenue is : '|| tmp);
+    END;
+    /
+
+Execute Total_Rev('12-APR-2021') ;
