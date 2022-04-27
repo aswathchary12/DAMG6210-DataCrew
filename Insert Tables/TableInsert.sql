@@ -62,3 +62,14 @@ INSERT INTO CUSTOMER VALUES(5017, 'Amy Morris', 'amy21', 'Amy_Morris', '11-NOV-1
 INSERT INTO CUSTOMER VALUES(5018, 'Nicole Larson', 'nicole_l', 'Nicole_Larson', '17-MAY-2002',  2152369726,'Larson_n@gmail.com', 1015);
 INSERT INTO CUSTOMER VALUES(5019, 'Vicki Simpson', 'vicks1', 'Vicki_Simpson', '02-MAR-1990',  9184961776,'Vickisimpson123@gmail.com', 1020);
 INSERT INTO CUSTOMER VALUES(5020, 'Amos Gibbs', 'amos23', 'Amos_Gibbs', '01-DEC-1994',  5842256768,'Amosgibbs@yahoo.com', 1004);
+
+INSERT INTO SELLER VALUES(6001, 'Faith Jennings', 'Faith_Jennings', 'faith123', 2212786065,'jennings_faith@gmail.com',  1010);
+INSERT INTO SELLER VALUES(6002, 'Kelvin Williams', 'Kelvin_Williams', 'Kelvin_Williams',  7546249541,'williams@gmail.com', 1008);
+INSERT INTO SELLER VALUES(6003, 'Nicole Weaver', 'Nicole_Weaver', 'nicole33',  3049537937,'weaver_ni123@gmail.com', 1009);
+INSERT INTO SELLER VALUES(6004, 'Mindy Munoz', 'Mindy_Munoz', 'Mindy_Munoz', 5006739512, 'mindy_munoz@gmail.com', 1011);
+INSERT INTO SELLER VALUES(6005, 'Glen Gross', 'Glen_Gross', 'Glen093',  4374048589,'glengross@gmail.com', 1006);
+INSERT INTO SELLER VALUES(6006, 'Tabitha Garner', 'Tabitha_Garner', 'TabithaGarner',  5849798416,'tabitha@gmail.com', 1016);
+INSERT INTO SELLER VALUES(6007, 'Leroy Adkins', 'Leroy_Adkins', 'Leroy11Adkins', 3679735652,'leroyadkins@yahoo.com',  1001);
+INSERT INTO SELLER VALUES(6008, 'Heather Ruiz', 'Heather_Ruiz', 'Heather_Ruiz',  9612629933,'ruizzheather@gmail.com', 1018);
+INSERT INTO SELLER VALUES(6009, 'Candice Nash', 'Candice_Nash', 'Candice12Nash', 6523538206, 'nashcandice@gmail.com', 1017);
+INSERT INTO SELLER VALUES(6010, 'Louise Hubbard', 'Louise_Hubbard', 'LHubbard',  8686555962,'hubbard@yahoo.com', 1007);
