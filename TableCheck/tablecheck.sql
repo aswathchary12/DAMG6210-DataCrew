@@ -25,5 +25,11 @@ BEGIN
   execute immediate 'drop table '||tname;
   select table_name into tname from user_tables where table_name='CATEGORYY';
   execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='ITEM_CONDITION';
+  execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='ADDRESS';
+  execute immediate 'drop table '||tname;
+  select table_name into tname from user_tables where table_name='ZIP_CODE';
+  execute immediate 'drop table '||tname;
 END;
 /
