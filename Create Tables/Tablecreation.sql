@@ -121,10 +121,10 @@ CREATE TABLE ITEM_CART(
     FOREIGN KEY(CART_ID) REFERENCES CART(CART_ID)
 );
 
-CREATE TABLE PRODUCT_PRICE_TRACKER (
-PRODUCT_ID INT,
-ITEM_NAME VARCHAR(25),
-OLD_PRICE INT,
-NEW_PRICE INT,
-UPDATE_TS DATE
+CREATE TABLE product_price_tracker (
+    product_id INT,
+    item_name  VARCHAR(25),
+    old_price  INT,
+    new_price  INT,
+    update_ts  DATE
 );
