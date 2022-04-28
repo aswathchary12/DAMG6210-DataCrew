@@ -1,4 +1,4 @@
---- Table Creation
+--- Creation of Table
 
 CREATE TABLE ZIP_CODE(
     AREA_CODE INT NOT NULL PRIMARY KEY,
